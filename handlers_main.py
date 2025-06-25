@@ -19,10 +19,6 @@ router = Router()
 from config import CHANNEL_LINK, SUPPORT_GROUP_ID
 from database import add_user, is_banned, ban_user
 
-# Удалим StatesGroup для капчи с эмодзи, так как он не нужен
-# class CaptchaState(StatesGroup):
-#     waiting_for_captcha = State()
-
 # Функция для создания главного меню
 def get_main_menu():
     if not CHANNEL_LINK.startswith(('http://', 'https://')):
@@ -30,7 +26,7 @@ def get_main_menu():
         channel_url = "https://t.me/PiratesMarket"
     else:
         channel_url = CHANNEL_LINK
-    
+
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="🏆 Рекомендации", callback_data="recommendations")],
         [
@@ -61,26 +57,6 @@ def get_welcome_text(user: User):
         f"<b>Выберите нужный раздел чтобы начать</b>"
     )
 
-# Удалим функцию get_captcha_menu, так как она не используется
-# def get_captcha_menu(correct_emoji):
-#     emojis = ['🌳', '🌑', '🌲', '🍂', '🍃', '🍯', '🍄', '🍫', '🌻', '🍀', '🌺', '🌼']
-#     options = random.sample(emojis, 4)
-#     if correct_emoji not in options:
-#         options[random.randint(0, 3)] = correct_emoji
-#     random.shuffle(options)
-#     
-#     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-#         [
-#             InlineKeyboardButton(text=options[0], callback_data=f"captcha_{options[0]}"),
-#             InlineKeyboardButton(text=options[1], callback_data=f"captcha_{options[1]}")
-#         ],
-#         [
-#             InlineKeyboardButton(text=options[2], callback_data=f"captcha_{options[2]}"),
-#             InlineKeyboardButton(text=options[3], callback_data=f"captcha_{options[3]}")
-#         ]
-#     ])
-#     return keyboard, correct_emoji
-
 # Обработчик команды /start
 @router.message(CommandStart())
 async def start_command(message: Message):
@@ -92,7 +68,7 @@ async def start_command(message: Message):
         return
     add_user(message.from_user.id, message.from_user.username)
     logger.info(f"User {message.from_user.id} started the bot")
-    
+
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
             InlineKeyboardButton(text="Мне есть 18 ✅", callback_data="age_yes"),
@@ -172,43 +148,6 @@ async def report_error_handler(callback: CallbackQuery):
         parse_mode="HTML"
     )
     logger.info(f"User {user_id} reported captcha error")
-
-# Удалим обработчик капчи с эмодзи, так как он не нужен
-# @router.callback_query(CaptchaState.waiting_for_captcha, F.data.startswith("captcha_"))
-# async def check_captcha(callback: CallbackQuery, state: FSMContext):
-#     pass  # Оставим пустым, так как FSM больше не используется
-
-# Обработка кнопки "Другие города"
-@router.callback_query(F.data == "cities_countries")
-async def show_cities_countries(callback: CallbackQuery):
-    await callback.message.delete()
-    await callback.message.answer(
-        "<b>🚧 Функция в разработке</b>\n"
-        "<b>Вернитесь позже</b>\n\n"
-        "<b>🔙 Назад</b>",
-        reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text="🔙 Назад", callback_data="main_menu")]
-        ]),
-        parse_mode="HTML"
-    )
-    logger.info(f"User {callback.from_user.id} opened cities/countries (under development)")
-    await callback.answer()
-
-# Обработка кнопки "Работа"
-# @router.callback_query(F.data == "work")
-# async def show_work(callback: CallbackQuery):
-#     await callback.message.delete()
-#     await callback.message.answer(
-#         "<b>🚧 Функция в разработке</b>\n"
-#         "<b>Вернитесь позже</b>\n\n"
-#         "<b>🔙 Назад</b>",
-#         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-#             [InlineKeyboardButton(text="🔙 Назад", callback_data="main_menu")]
-#         ]),
-#         parse_mode="HTML"
-#     )
-#     logger.info(f"User {callback.from_user.id} opened work section (under development)")
-#     await callback.answer()
 
 # Обработка возврата в главное меню
 @router.callback_query(F.data == "main_menu")
