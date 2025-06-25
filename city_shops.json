@@ -1,0 +1,436 @@
+[
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐑𝐓𝐈𝐄𝐑",
+        "city_order": 1,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 25.000ᴋᴢᴛ"},
+            {"item": "🌲 ꜱᴅ 23.000ᴋᴢᴛ"}
+        ],
+        "description": "Элитный выбор в столице",
+        "rating": 4.5,
+        "extra_text": "Быстрая доставка: 4000ᴋᴢᴛ\nПри оплате криптой 10% скидка\nЕсть Алматы | Астана | Караганда",
+        "contacts": ["firesboss"],
+        "image": "cartier_astana.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐓𝐀𝐍𝐆𝐎",
+        "city_order": 1,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 31.999ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 16.999ᴋᴢᴛ"}
+        ],
+        "description": "Качественные сорта в Астане",
+        "rating": 4.4,
+        "extra_text": "Доставка: 4000ᴋᴢᴛ\nЕсть Алматы | Астана",
+        "contacts": ["rapidsboss"],
+        "image": "tango_astana.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐍𝐄𝐕𝐄𝐑𝐋𝐀𝐍𝐃",
+        "city_order": 1,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 35.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 18.000ᴋᴢᴛ"}
+        ],
+        "description": "Уникальный ассортимент",
+        "rating": 4.6,
+        "extra_text": "Быстрая доставка: 4000ᴋᴢᴛ\nПри оплате криптой 10% скидка\nЕсть Алматы | Астана | Караганда",
+        "contacts": ["tethergg"],
+        "image": "neverland_astana.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 1,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_astana.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐔𝐒𝐀",
+        "city_order": 1,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 14.000ᴋᴢᴛ"}
+        ],
+        "description": "Американский стандарт",
+        "rating": 4.5,
+        "extra_text": "Доставка 5000ᴋᴢᴛ",
+        "contacts": ["f4boss", "sellsnight"],
+        "image": "usa_astana.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐒𝐊𝐈𝐓𝐓𝐋𝐄𝐒",
+        "city_order": 1,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 15.000ᴋᴢᴛ"}
+        ],
+        "description": "Яркие вкусы",
+        "rating": 4.4,
+        "extra_text": "Доставка 5000ᴋᴢᴛ",
+        "contacts": ["vip91x"],
+        "image": "skittles_astana.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐈𝐌𝐏𝐎𝐑𝐓 𝐒𝐓𝐎𝐑𝐄",
+        "city_order": 1,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 14.000ᴋᴢᴛ"}
+        ],
+        "description": "Импортные сорта",
+        "rating": 4.6,
+        "extra_text": "Есть доставка",
+        "contacts": ["goldsrich"],
+        "image": "import_astana.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐑𝐓𝐈𝐄𝐑",
+        "city_order": 2,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 25.000ᴋᴢᴛ"},
+            {"item": "🌲 ꜱᴅ 23.000ᴋᴢᴛ"}
+        ],
+        "description": "Качество для Караганды",
+        "rating": 4.3,
+        "extra_text": "Быстрая доставка: 4000ᴋᴢᴛ\nПри оплате криптой 10% скидка\nЕсть Алматы | Астана | Караганда",
+        "contacts": ["firesboss"],
+        "image": "cartier_karaganda.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐓𝐀𝐍𝐆𝐎",
+        "city_order": 2,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 31.999ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 16.999ᴋᴢᴛ"}
+        ],
+        "description": "Качественные сорта",
+        "rating": 4.4,
+        "extra_text": "Доставка: 4000ᴋᴢᴛ\nЕсть Алматы | Астана",
+        "contacts": ["rapidsboss"],
+        "image": "tango_karaganda.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐍𝐄𝐕𝐄𝐑𝐋𝐀𝐍𝐃",
+        "city_order": 2,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 35.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 18.000ᴋᴢᴛ"}
+        ],
+        "description": "Уникальный ассортимент",
+        "rating": 4.5,
+        "extra_text": "Быстрая доставка: 4000ᴋᴢᴛ\nПри оплате криптой 10% скидка\nЕсть Алматы | Астана | Караганда",
+        "contacts": ["tethergg"],
+        "image": "neverland_karaganda.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 2,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_karaganda.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐔𝐒𝐀",
+        "city_order": 2,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 14.000ᴋᴢᴛ"}
+        ],
+        "description": "Американский стандарт",
+        "rating": 4.4,
+        "extra_text": "Доставка 5000ᴋᴢᴛ",
+        "contacts": ["f4boss", "sellsnight"],
+        "image": "usa_karaganda.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐒𝐊𝐈𝐓𝐓𝐋𝐄𝐒",
+        "city_order": 2,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 15.000ᴋᴢᴛ"}
+        ],
+        "description": "Яркие вкусы",
+        "rating": 4.5,
+        "extra_text": "Доставка 5000ᴋᴢᴛ",
+        "contacts": ["vip91x"],
+        "image": "skittles_karaganda.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐈𝐌𝐏𝐎𝐑𝐓 𝐒𝐓𝐎𝐑𝐄",
+        "city_order": 2,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 14.000ᴋᴢᴛ"}
+        ],
+        "description": "Импортные сорта",
+        "rating": 4.6,
+        "extra_text": "Есть доставка",
+        "contacts": ["goldsrich"],
+        "image": "import_karaganda.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐑𝐓𝐈𝐄𝐑",
+        "city_order": 3,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 25.000ᴋᴢᴛ"},
+            {"item": "🌲 ꜱᴅ 23.000ᴋᴢᴛ"}
+        ],
+        "description": "Павлодарский ассортимент",
+        "rating": 4.4,
+        "extra_text": "Быстрая доставка: 4000ᴋᴢᴛ\nПри оплате криптой 10% скидка\nЕсть Алматы | Астана | Караганда",
+        "contacts": ["firesboss"],
+        "image": "cartier_pavlodar.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐓𝐀𝐍𝐆𝐎",
+        "city_order": 3,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 31.999ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 16.999ᴋᴢᴛ"}
+        ],
+        "description": "Качественные сорта",
+        "rating": 4.4,
+        "extra_text": "Доставка: 4000ᴋᴢᴛ\nЕсть Алматы | Астана",
+        "contacts": ["rapidsboss"],
+        "image": "tango_pavlodar.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐍𝐄𝐕𝐄𝐑𝐋𝐀𝐍𝐃",
+        "city_order": 3,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 35.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 18.000ᴋᴢᴛ"}
+        ],
+        "description": "Уникальный ассортимент",
+        "rating": 4.5,
+        "extra_text": "Быстрая доставка: 4000ᴋᴢᴛ\nПри оплате криптой 10% скидка\nЕсть Алматы | Астана | Караганда",
+        "contacts": ["tethergg"],
+        "image": "neverland_pavlodar.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 3,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_pavlodar.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐔𝐒𝐀",
+        "city_order": 3,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 14.000ᴋᴢᴛ"}
+        ],
+        "description": "Американский стандарт",
+        "rating": 4.4,
+        "extra_text": "Доставка 5000ᴋᴢᴛ",
+        "contacts": ["f4boss", "sellsnight"],
+        "image": "usa_pavlodar.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐒𝐊𝐈𝐓𝐓𝐋𝐄𝐒",
+        "city_order": 3,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 15.000ᴋᴢᴛ"}
+        ],
+        "description": "Яркие вкусы",
+        "rating": 4.5,
+        "extra_text": "Доставка 5000ᴋᴢᴛ",
+        "contacts": ["vip91x"],
+        "image": "skittles_pavlodar.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐈𝐌𝐏𝐎𝐑𝐓 𝐒𝐓𝐎𝐑𝐄",
+        "city_order": 3,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 14.000ᴋᴢᴛ"}
+        ],
+        "description": "Импортные сорта",
+        "rating": 4.6,
+        "extra_text": "Есть доставка",
+        "contacts": ["goldsrich"],
+        "image": "import_pavlodar.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 4,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_kokchetav.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐒𝐊𝐈𝐓𝐓𝐋𝐄𝐒",
+        "city_order": 4,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 15.000ᴋᴢᴛ"}
+        ],
+        "description": "Яркие вкусы",
+        "rating": 4.4,
+        "extra_text": "Доставка 5000ᴋᴢᴛ",
+        "contacts": ["vip91x"],
+        "image": "skittles_kokchetav.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐔𝐒𝐀",
+        "city_order": 4,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 14.000ᴋᴢᴛ"}
+        ],
+        "description": "Американский стандарт",
+        "rating": 4.5,
+        "extra_text": "Доставка 5000ᴋᴢᴛ",
+        "contacts": ["f4boss", "sellsnight"],
+        "image": "usa_kokchetav.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐈𝐌𝐏𝐎𝐑𝐓 𝐒𝐓𝐎𝐑𝐄",
+        "city_order": 4,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 17.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 14.000ᴋᴢᴛ"}
+        ],
+        "description": "Импортные сорта",
+        "rating": 4.6,
+        "extra_text": "Есть доставка",
+        "contacts": ["goldsrich"],
+        "image": "import_kokchetav.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 5,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_shymkent.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 6,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_taraz.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 7,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_semey.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 8,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_atyrau.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 9,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_aktobe.jpg"
+    },
+    {
+        "order": 1,
+        "name": "𝐂𝐀𝐒𝐈𝐍𝐎",
+        "city_order": 10,
+        "assortment": [
+            {"item": "🌳 ꜱᴏʀᴛ 30.000ᴋᴢᴛ"},
+            {"item": "🌑 ʜᴀꜱʜ 28.000ᴋᴢᴛ"}
+        ],
+        "description": "Премиум выбор",
+        "rating": 4.3,
+        "extra_text": "",
+        "contacts": ["richsbuy"],
+        "image": "casino_kyzylorda.jpg"
+    }
+]
